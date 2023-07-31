@@ -1,2 +1,88 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+.bigbox {
+    width: 200px;
+    background-color: #fff;
+    display: inline-block;
+    padding:20px 0;
+    font-size: 16px;
+}
+
+.align {
+    text-align: center;
+}
+
+.text {
+    background: #a4b3e9;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* textはinline-blockにすることによりpaddingで高さ調整ができる様になる。なぜなら
+pタグではブロック要素なので横幅全体に色がついてします。逆にインライン要素は文字の長さ
+までの部分までに色がつき高さが調整できないため。だからインラインブロックにして文字の長さ
+までの色付けと高さ調整ができる様にした インライン要素は文字の長さまで色づき高さ調整不可。
+ブロック要素は横幅いっぱいまで広がり高さ調整可能 */
+
+
+.margin-text {
+    text-align: center;
+    margin: 0 auto;
+    width: 90px;
+    padding: 10px;
+    background: #a4b3e9;
+}
+
+.table {
+    display: table;
+}
+
+.table-cell {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* 親要素をtableにすることにより小要素をtable-cell（セル）に変換することができ
+横方向へ並べることができる。 vertical-align: middleで位置の調整を行う*/
+
+.table-text {
+    padding: 10px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 親要素ここではdーーflexをかけてjustify-contentやalign-itemsなどで位置や
+場所を指定する。*/
+
+.flex-text{
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+
+.relative {
+    position: relative;
+}
+
+.position-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #a4b3e9;
+    padding: 10px;
+}
+
+/*     transform: translate(-50%,-50%)ではposition:relative absoluteで
+位置調整でtop,left,rigrtなど使い調整するのだがどうしても頂点が存在するので頂点は
+真ん中にきているが要素は少し左右にヅレが生じる。その時に使うのがtransform: translate(-50%,-50%)
+ */
