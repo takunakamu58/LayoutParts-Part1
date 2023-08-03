@@ -1,1 +1,48 @@
 @charset "UTF-8";
+.big-box1{
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+}
+
+
+
+.box-crams {
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.box-1 {
+  width: 300px;
+  background: #ff7d7f;
+}
+
+.box-2 {
+  background: #7b86ff;
+}
+
+.box-3 {
+  width: 300px;
+  background: #fff27f;
+}
+
+.box-a {
+  background: #7dff91;
+}
+
+.box-b {
+  background: #ff7de2;
+  width: 400px;
+}
+
+.box-c {
+  background: #ffc67d;
+  width: 400px;
+}
+
+.box-d {
+  background: #7df2ff;
+}
+
