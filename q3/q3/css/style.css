@@ -1,1 +1,43 @@
 @charset "UTF-8";
+
+.table--area {
+  width: 100%;
+  table-layout: fixed;
+}
+
+/*     table-layout: fixedは表や列の幅が自動調整されるのを解除してくれる
+文字の長さによって表はデフォルトで自動調整されてしまうので解除する必要がある。 */
+
+.table--area th {
+  background: #319c4a;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.table--area th,td {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.table--area td {
+  font-size: 18px;
+  text-align: center;
+  line-height: 22px;
+}
+
+
+.table--area tr:nth-child(even){
+  background-color: #d5ffc7;
+}
+
+.table--area tr:nth-child(odd){
+  background-color: #bcbcbc;
+}
+
+.table--area tr:last-child{
+  border-top: 1px double rgb(255, 255, 255);
+}
+
+/* nth-child oddは奇数、evenは偶数を表している。何行目を色付けるかに使う
+ last-childは最後から何番目を指定。今回は最後から1番目にborder-topを
+ かけた。*/
