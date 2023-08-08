@@ -5,8 +5,6 @@
   table-layout: fixed;
 }
 
-/*     table-layout: fixedは表や列の幅が自動調整されるのを解除してくれる
-文字の長さによって表はデフォルトで自動調整されてしまうので解除する必要がある。 */
 
 .table--area th {
   background: #319c4a;
@@ -38,6 +36,3 @@
   border-top: 1px double rgb(255, 255, 255);
 }
 
-/* nth-child oddは奇数、evenは偶数を表している。何行目を色付けるかに使う
- last-childは最後から何番目を指定。今回は最後から1番目にborder-topを
- かけた。*/
