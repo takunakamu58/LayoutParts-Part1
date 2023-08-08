@@ -4,9 +4,7 @@
 .bigbox {
     width: 200px;
     background-color: #fff;
-    display: inline-block;
     padding:20px 0;
-    font-size: 16px;
 }
 
 .aligns {
@@ -17,6 +15,7 @@
     background: #a4b3e9;
     padding: 10px;
     display: inline-block;
+    font-size: 16px;
 }
 
 .margin-text {
