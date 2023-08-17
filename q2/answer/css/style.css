@@ -9,10 +9,14 @@
 .list--card {
   list-style: none;
   width: 200px;
-  margin: 30px;
+  margin-left: 60px;
   outline: 10px solid #655;
   box-shadow: 0 0 0 6px #655;
   border-radius: 13px;
   padding: 10px;
   background: #d2b48c;
+}
+
+.list--card:first-child {
+  margin-left: 0;
 }
