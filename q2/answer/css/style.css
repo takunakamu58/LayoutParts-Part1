@@ -3,12 +3,10 @@
 .list {
   display: flex;
   justify-content: center;
-  align-items: stretch;
 }
 
 
 .list--card {
-  align-self: stretch;
   list-style: none;
   width: 200px;
   margin-left: 60px;
